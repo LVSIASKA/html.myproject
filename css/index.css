@@ -1,0 +1,149 @@
+nav {
+    display: flex;
+    border-color: white;
+    background-color: white;
+    border-width: 60px;
+    border-style: solid;
+       
+}
+.menu {
+    padding: 10px 800px 60px 20px;
+
+}
+.logo {
+   width: 100px
+
+}
+.container {
+    background-image: url(../img/logo.png);
+    background-size: cover;
+    min-height: 1000px;
+    min-width: 800px;
+    background-position: center;
+    display: grid;
+    place-items: center;
+}
+.box-container {
+    display: flex;
+    
+}
+h1{
+    color: black;
+    font-family: monospace
+    font: size 30;
+}
+p {
+    color: black;
+    font-family: Lobster;
+    font: size 10;
+}
+.larger-image {
+    display: flex;
+    height: 400px;
+    width: 400px;
+  
+
+}
+
+.baner{
+    border-color: white;
+    background-color: white;  
+    border-style: solid;
+    height:400px;
+    width: 400px;
+  }
+.block-about {
+    display: flex;
+}
+.block-about {
+display: grid;
+place-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+h2 {
+    display: flex;
+    flex-direction: row;
+
+}
+.block {
+display: flex;
+}
+h3 {
+    padding:50px 80px 100px 700px;
+    color: burlywood;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+#purse {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.small image: {
+    height: 80px;
+    width: 80px;
+}
+.name {
+    display: flex;
+    flex-direction: row;
+}
+.information {
+    background-image: url(../img/skin.png);
+    background-size: cover;
+    min-height: 1000px;
+    min-width: 800px;
+    background-position: center;
+    display: grid;
+    place-items: center;
+}
+.block-information {
+    background-image: url(../img/rose.jpg);
+    display: flex;
+background-size: cover;
+    min-height: 1000px;
+    min-width: 800px;
+    background-position: center;
+    display: grid;
+    place-items: center;
+
+}
+.block-information{
+   flex-direction: column;
+    background-position: center;
+    display: grid;
+    place-items: center;
+    grid-row: auto;
+   
+}
+    
+}
+.block-first {
+   
+    display: flex;
+    background-size: cover;
+    border-style: solid;
+    flex-direction: column;
+   
+}
+.block-two {
+    
+    display: flex;
+    background-size: cover;
+    border-style: solid;
+    flex-direction: column;
+    background-size: cover;
+    min-height: 800px;
+    min-width: 1000px;
+    
+}
+.photo {
+   width: 500px
+}
