@@ -22,7 +22,7 @@ header .logo {
     width: 50px;
 }
 
-header .block-information {
+header .banner {
     background-image: url(../img/man.jpg);
     background-size: cover;
     background-position: center;
@@ -33,7 +33,17 @@ header .block-information {
     flex-direction: column;
 
 }
+    .stend {
+    display: grid;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;  
+    border-style: solid;
+    margin: 200px;
 
+}
 header .menu {
     display: flex;
     flex-direction: row;
