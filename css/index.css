@@ -1,98 +1,60 @@
-
-
-nav {
-    display: flex;
-    border-color: white;
-    background-color: white;
-    border-width: 60px;
-    border-style: solid;
-   
-    
+:root {
+    --main color: black;
 }
 
-.icon-menu {
-width: 30px;
-}
-.logo {
-width: 30px;
-    
+body {
+    max-width: 980px;
+    margin: auto;
 }
 
-.menu {
-text-transform: uppercase;
-text-decoration: none;
-display: flex;
-flex-direction: row;
+@media (min-width: 610px) {
+    header nav {
+        display: flex;
+        margin: 30px;
+        grid-column-gap: 60px;
+    }
 }
-a {
-    color: black;
+header .icon-menu {
+    width: 30px;
+    height: 30px;
+}
+header .logo {
+    width: 50px;
 }
 
-header .banner {
-    min-height: 600px;
-    min-width: 400px;
+header .block-information {
     background-image: url(../img/man.jpg);
     background-size: cover;
-    background-position: center; 
-    display: grid;
-    grid-template-columns: 2fr 1fr;  
-}
-.stend {
-    min-height: 600px;
-    min-width: 400px;
     background-position: center;
-    border: rgb(247, 243, 229);
-    background-color: rgb(247, 243, 229);
-    margin: 200px;
-    padding: 30px;
-    border-style: solid;
-    display: grid;
-}
-
-h {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
-p {
-    color: black;
-    font-family: Lobster;
-    font: size 15;
 
+header .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-column-gap: 20px;
 }
-.svg {
-    width: 100px;
-}
-.about-us {
-    margin: 130px;
-    display: grid;
-    grid-column-gap: 50px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.product-list {
-    margin: 130px;
-    
-   
-}
-
+header .menu a {
+    font-weight: bold;
 }
 .block-information {
-    display: flex;
-    flex-direction: column;
-    padding: 1000px;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
-
 .photo-skin {
-
- width: 40%;
- height: 60%;
+    width: 40%;
+    height: 60%;
 }
 .photo-belt {
-width: 40%;
-height: 60%;
-
+    width: 40%;
+    height: 60%;
 }
-
-
 .karta {
     margin: 100px;
     padding: 10px;
@@ -100,14 +62,10 @@ height: 60%;
     display: grid;
     grid-template-columns: 50% 50%;
 }
- .infa-contact {
-     padding: 100px;
-flex-direction: row;
-align-items: center;
- justify-content: space-around;
-font-size: 2rem;
- }
-h7 {
-text-transform: uppercase;
-text-decoration: none;
-    
+.infa-contact {
+    padding: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2rem;
+}
