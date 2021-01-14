@@ -1,81 +1,94 @@
-:root {
-    --main color: black;
-}
 
 body {
     max-width: 980px;
     margin: auto;
-}
 
-@media (min-width: 610px) {
-    header nav {
-        display: flex;
-        margin: 30px;
-        grid-column-gap: 60px;
-    }
+    font-family: Playfair Display SC;
+}
+header .logo {
+    width: 70px;
 }
 header .icon-menu {
     width: 30px;
-    height: 30px;
 }
-header .logo {
-    width: 50px;
-}
-
-header .banner {
-    background-image: url(../img/man.jpg);
-    background-size: cover;
-    background-position: center;
-    min-height: 400px;
+@media (min-width: 610px) {
+header nav {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
+    justify-content: space-around;
+    flex: 1;
 }
-    .stend {
-    display: grid;
-    place-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: white;  
-    border-style: solid;
-    margin: 200px;
-
 }
 header .menu {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    grid-column-gap: 20px;
 }
-header .menu a {
-    font-weight: bold;
-}
-.block-information {
+header .banner {
+    background-image: url(../img/man.jpg);
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 2.5fr 1fr;
+    margin: 0px;
 }
-.photo-skin {
-    width: 40%;
-    height: 60%;
-}
-.photo-belt {
-    width: 40%;
-    height: 60%;
-}
-.karta {
+header .stend {
+    border-style: solid;
     margin: 100px;
-    padding: 10px;
-    min-width: 1000px;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    border-color: rgb(211, 194, 178);
+    background-color:rgb(211, 194, 178);
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: baseline;
 }
-.infa-contact {
-    padding: 100px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 2rem;
+header .svg {
+    width: 100px;
+}
+@media (min-width: 310px) {
+header .about-us {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}
+@media (min-width: 900px) {
+    header .about-us {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+main .small-image {
+    width: 200px;
+    height: 200px;
+}
+main .product-purse {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+main .large-photo {
+    width: 400px;
+    height: 550px;
+}
+main .block-information {
+    display: grid;
+    padding: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+}
+footer form label {
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer {
+    margin: 50px;
+}
+footer .karta {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+footer .infa-contact {
+    border-style: solid;
+    margin: 100px;
+    border-color: white
+
 }
